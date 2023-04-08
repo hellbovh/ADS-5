@@ -8,9 +8,8 @@ int getPrior(char c) {
     else if (c == ')') return 1;
     else if (c == '+' || c == '-') return 2;
     else if (c == '*' || c == '/') return 3;
-    else {
+    else
         return -1;
-    }
 }
 
 bool isDigit(char c) {
