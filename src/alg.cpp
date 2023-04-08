@@ -55,7 +55,7 @@ std::string infx2pstfx(std::string inf) {
 	return pstfx;
 }
 
-int eval(std::string pref) {
+int eval(std::string post) {
 	TStack<int, 100> stack2;
 	for (int i = 0; i < post.length(); i++) {
 		char ch = post[i];
