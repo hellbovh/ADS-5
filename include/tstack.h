@@ -8,6 +8,7 @@ class TStack {
  private:
     T* arr;
     int top_index;
+
  public:
     TStack() : top_index(-1), arr(new T(size)) {}
     bool isFull() const {
